@@ -20,7 +20,7 @@
 2. Run `npm install` to pull the dependencies
 5. Run `mongod --replSet rs` to start running Mongo with a Replica Set.
 6. Open another terminal without disturbing the terminal running mongod, then import the database with `mongorestore --db dronesym dronedb/dronesym`
-7. Run `npm start` to start the Node server
+7. cd to dronesym-node and then Run `npm start` to start the Node server 
 **Create a folder C:\data\db if you get a error starting with replica set(For windows users)**
 **Note: Make sure you have an admin account in the database under user collection. (Refer the schema in Models folder)**
 
